@@ -1,12 +1,12 @@
-import { Introduction } from "./Intro.styled";
 import Container from "../Container/Container";
+import { Bg } from "./Intro.styled.js"
 
 export default function Intro(){
     return(
         <>
-        <Introduction>
+            <Bg>
              <Container/>
-        </Introduction>
+            </Bg>
         </>
     )
 }

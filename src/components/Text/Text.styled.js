@@ -18,6 +18,7 @@ export const Title = styled.section`
     display:flex;
     gap:10rem;
     width:100%;
+    color:white;
 `
 export const SubText = styled.p`
     font-family:arial;

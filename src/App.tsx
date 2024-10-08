@@ -1,13 +1,13 @@
 import './App.css';
-import Introduction from "./components/Intro/Introduction";
+import Intro from './components/Intro/Intro';
 function App() {
 
   return (
     <>
       <section>
-        <Introduction>
+        <Intro>
           
-        </Introduction>
+        </Intro>
       </section>
     </>
   )

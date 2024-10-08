@@ -1,6 +1,11 @@
 import styled from "styled-components";
+import BackgroundImg from "/src/assets/image.png";
 
-export const Introduction = styled.section`
-    padding:0;
-    margin:0;
+export const Bg = styled.div`
+    background-image:url(${BackgroundImg});
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:200vh;
+    position:absolute;
 `
