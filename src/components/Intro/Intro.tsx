@@ -1,12 +1,17 @@
 import Container from "../Container/Container";
-import {Bg} from "./Intro.styled"
+import {Bg, Containerone, Secondbg} from "./Intro.styled"
 
 export default function Intro(){
     return(
         <>
-            <Bg>
-             <Container/>
-            </Bg>
+            <Containerone>
+                <Bg>
+                    <Container/>
+                </Bg>
+                <Secondbg>
+
+                </Secondbg>
+            </Containerone>
         </>
     )
 }

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+    import styled from "styled-components";
 
 export const Title = styled.section`
     position:relative;
@@ -15,6 +15,10 @@ export const SubText = styled.p`
     color:#FBD784;
 `
 export const SubTitle = styled.div`
-    font-size: 80px;
-    
+    font-size: 82px;
+`
+export const Scroll = styled.div`
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
 `

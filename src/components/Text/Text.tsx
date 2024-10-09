@@ -1,4 +1,4 @@
-import { SubText, SubTitle } from "./Text.styled.ts";
+import { Scroll, SubText, SubTitle } from "./Text.styled.ts";
 export default function Text(){
     return(
         <>
@@ -7,14 +7,12 @@ export default function Text(){
                 <SubText>--- A HIKING GUIDE</SubText>
             </SubText>
             <SubTitle>
-                <h1>
                 Be Prepared For The <br />
                 Mountains And Beyond!
-                </h1>
             </SubTitle>
-            <div>
-                scroll down
-            </div>
+            <Scroll>
+                scroll down |
+            </Scroll>
         </section>
 
         </>

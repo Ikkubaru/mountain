@@ -1,17 +1,30 @@
 import styled from "styled-components";
 import BackgroundImg from "/src/assets/image.png";
+import SecondBackground from "/src/assets/front.png"
 
+export const Containerone = styled.div`
+    display: flex;
+    flex-direction: column;
+    position: relative;
+`
 export const Bg = styled.div`
     background-image:url(${BackgroundImg});
     background-repeat:no-repeat;
     background-size:cover;
+    background-position: center;
+    top: 0;
+    left: 0;
     width:100%;
-    height:200%;
+    height:200vh;
     position:absolute;
-    z-index: -1;
     /* background-color: #0B1D26; */
     `
-
-export const Menuright = styled.div`
-    position:relative;
+export const Secondbg = styled.div`
+    background-image:url(${SecondBackground});
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    position: absolute;
+    bottom: 0;
 `
