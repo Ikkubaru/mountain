@@ -1,4 +1,4 @@
-import { NavContainer,Menu,MenuList, Logo } from "./Navbar.styled.js";
+import { NavContainer,Menu,MenuList, Logo } from "./Navbar.styled";
 export default function Navbar(){
     return(
         <>

@@ -1,5 +1,5 @@
 import Container from "../Container/Container";
-import { Bg } from "./Intro.styled.js"
+import {Bg} from "./Intro.styled"
 
 export default function Intro(){
     return(

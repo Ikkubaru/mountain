@@ -1,8 +1,9 @@
 import SideMenu from "../SideMenu/SideMenu";
 import Navbar from "../Navbar/Navbar"
 import Text from "../Text/Text";
-import {Title} from "../Text/Text.styled.js" 
+import { Title } from "../Text/Text.styled.ts";
 export default function Container(){
+    
     return(
         <>
         <section>

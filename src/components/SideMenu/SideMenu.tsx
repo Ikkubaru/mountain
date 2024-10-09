@@ -8,7 +8,6 @@ export default function SideMenu(){
             <FaInstagram/>
             <FaTwitter/>
         </MenuSide>
-        
         </>
     )
 }
