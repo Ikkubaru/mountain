@@ -1,10 +1,12 @@
-import {Zerocontainer} from "./Zeroone.styled"
+import {Zerocontainer, Secondbg} from "./Zeroone.styled"
 export default function Zeroone(){
     return(
         <>
-        <Zerocontainer>
-            <h1>hiiii</h1>
-        </Zerocontainer>
+            <Zerocontainer>
+                <Secondbg>
+                    
+                </Secondbg>
+            </Zerocontainer>
         </>
     )
 }
