@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ImageSecond from "/src/assets/02.jpg"
 
 export const SecondContainer = styled.div`
     width: 100%;
@@ -9,6 +10,8 @@ export const SecondContainer = styled.div`
     color: #ffff;
 `
 export const SecondImage = styled.img`
+    background-image: url(${ImageSecond});
+    background-size: cover;
    width: 343px;
    height: 430px;
 `

@@ -7,7 +7,7 @@ export default function Second(){
         <SecondContainer>
             <ContainerTwo>
         <div>
-                <SecondImage src="/src/assets/02.jpg" />
+                <SecondImage  />
             </div>
                 <Two>02</Two>
         <div>
