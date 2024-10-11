@@ -14,11 +14,12 @@ export const SubText = styled.p`
     font-size:20px;
     color:#FBD784;
 `
-export const SubTitle = styled.div`
+export const SubTitle = styled.div` 
     font-size: 82px;
 `
 export const Scroll = styled.div`
     font-family: Arial;
     font-size: 18px;
     font-weight: bold;
+    position: relative;
 `

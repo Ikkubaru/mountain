@@ -17,14 +17,14 @@ export const Bg = styled.div`
     width:100%;
     height:200vh;
     position:absolute;
-    /* background-color: #0B1D26; */
+
     `
 export const Secondbg = styled.div`
     background-image:url(${SecondBackground});
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
-    height:100vh;
+    height:120vh;
     position: absolute;
-    bottom: 0;
+    top: 100vh;
 `

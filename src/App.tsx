@@ -1,12 +1,16 @@
 import './App.css';
 import Intro from './components/Intro/Intro';
+import First from "./components/First/First"
+import Second from './components/Second/Second';
 function App() {
 
   return (
     <>
-    <section>
-        <Intro/>
-    </section>
+    <div>
+      <Intro/>
+    </div>
+      <First/>
+      <Second/>
     </>
   )
 }

@@ -1,4 +1,6 @@
+
 import { Scroll, SubText, SubTitle } from "./Text.styled.ts";
+
 export default function Text(){
     return(
         <>
@@ -11,7 +13,7 @@ export default function Text(){
                 Mountains And Beyond!
             </SubTitle>
             <Scroll>
-                scroll down |
+                scroll down
             </Scroll>
         </section>
 
