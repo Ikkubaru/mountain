@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ImageOne from "/src/assets/01.png"
 
 export const FirstContainer = styled.div`
     width: 100%;
@@ -15,8 +16,10 @@ export const ContainerOne = styled.div`
     gap: 2rem;
 `
 export const FirstImage = styled.img`
+    background-image: url(${ImageOne});
     width: 343px;
     height: 430px;
+    background-size: cover;
 `
 export const LargeText = styled.p`
     font-size: 64px;

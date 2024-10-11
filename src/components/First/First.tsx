@@ -21,7 +21,7 @@ export default function First(){
                 </Linked>
             </div>
             <div>
-                <FirstImage src="/src/assets/01.png" />
+                <FirstImage/>
             </div>
             </ContainerOne>
         </FirstContainer>
