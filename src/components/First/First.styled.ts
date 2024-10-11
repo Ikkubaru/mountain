@@ -37,8 +37,10 @@ export const Linked = styled.a`
     font-weight: bold;
     cursor: pointer;
     color:#FBD784;
+    display: flex;
 `
 export const Start = styled.h1`
+    display: flex;
     color:#FBD784;
     font-size: 18px;
     font-family: arial;
@@ -51,3 +53,9 @@ export const NumberOne = styled.h1`
     top: -50px;
     left: 90px;
 `
+export const Line = styled.div`
+  width: 52px;
+  height: 2px;
+  background-color: #FBD784;
+  margin: 10px 0;
+`;

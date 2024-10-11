@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavContainer = styled.section`
     display:flex;
-    gap:26rem;
+    gap:25rem;
     margin:2rem;
     color:white;
 `
@@ -12,6 +12,8 @@ export const Menu = styled.div`
     gap:1rem;
 `
 export const MenuList = styled.a`
+    display: flex;
+    gap: 0.5rem;
     text-decoration:none;
     font-family: arial;
     font-weight:bold;

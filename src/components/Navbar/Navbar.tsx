@@ -1,4 +1,5 @@
 import { NavContainer,Menu,MenuList, Logo } from "./Navbar.styled";
+import { FaUser } from 'react-icons/fa';
 export default function Navbar(){
     return(
         <>
@@ -14,7 +15,8 @@ export default function Navbar(){
             </Menu>
         </div>
         <div>
-            <h4><MenuList href="">Account</MenuList></h4>
+            <h4><MenuList href=""> 
+            <FaUser size={15} color="white" /> Account</MenuList></h4>
         </div>
         </NavContainer>
         </>

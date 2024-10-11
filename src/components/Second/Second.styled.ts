@@ -35,6 +35,7 @@ export const Linked = styled.a`
     font-family: arial;
     text-decoration: none;
     font-weight: bold;
+    display: flex;
 `
 export const LargeText = styled.p`
     font-size: 64px;
@@ -52,4 +53,11 @@ export const More = styled.a`
     font-weight: bold;
     cursor: pointer;
     color:#FBD784;
+    display: flex;
 `
+export const Line = styled.div`
+  width: 52px;
+  height: 2px;
+  background-color: #FBD784;
+  margin: 10px 0;
+`;

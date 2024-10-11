@@ -1,4 +1,4 @@
-import {FirstContainer,ContainerOne, FirstImage, Paragraph, Linked, LargeText, Start, NumberOne} from "./First.styled"
+import {FirstContainer,ContainerOne, FirstImage, Paragraph, Linked, LargeText, Start, NumberOne, Line} from "./First.styled"
 
 export default function First(){
     return(
@@ -7,7 +7,7 @@ export default function First(){
             <ContainerOne>
             <div>
                 <NumberOne>01</NumberOne>
-                <Start>---GET STARTED</Start>
+                <Start><Line/>GET STARTED</Start>
                 <LargeText>What level of hiker are you?</LargeText>
                 <Paragraph>
                 Determining what level of hiker you are can be an important tool when planning <br />
@@ -18,6 +18,7 @@ export default function First(){
                 </Paragraph> <br />
                 <Linked href="">
                     read more
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Linked>
             </div>
             <div>

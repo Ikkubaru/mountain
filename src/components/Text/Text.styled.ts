@@ -8,7 +8,14 @@ export const Title = styled.section`
     width:100%;
     color:white;
 `
+export const Line = styled.div`
+  width: 72px;
+  height: 2px;
+  background-color: #FBD784;
+  margin: 10px 0;
+`;
 export const SubText = styled.p`
+    display: flex;
     font-family:arial;
     font-weight:bold;
     font-size:20px;
