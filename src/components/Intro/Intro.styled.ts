@@ -18,6 +18,15 @@ export const Bg = styled.div`
     height:200vh;
     position:absolute;
 
+    @media (max-width: 1024px) { 
+        height: 100vh;
+    }
+
+    @media (max-width: 768px) { 
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+    }
     `
 export const Secondbg = styled.div`
     background-image:url(${SecondBackground});
@@ -27,4 +36,16 @@ export const Secondbg = styled.div`
     height:120vh;
     position: absolute;
     top: 100vh;
+
+    @media (max-width: 1024px) { 
+        top: 90vh;
+        height: 100vh;
+    }
+
+    @media (max-width: 768px) { 
+        top: 55vh;
+        height: 80vh;
+        background-size: cover;
+        overflow: hidden;
+    }
 `

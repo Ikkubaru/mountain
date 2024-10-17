@@ -8,9 +8,7 @@ export default function Intro(){
                 <Bg>
                     <Container/>
                 </Bg>
-                <Secondbg>
-
-                </Secondbg>
+                <Secondbg/>
             </Containerone>
         </>
     )
