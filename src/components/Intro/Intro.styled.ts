@@ -20,11 +20,13 @@ export const Bg = styled.div`
 
     @media (max-width: 1024px) { 
         height: 100vh;
+        width: 100%;
+        background-size: cover;
     }
 
     @media (max-width: 768px) { 
         height: 100vh;
-        width: 100vw;
+        width: 100%;
         background-size: cover;
     }
     `
@@ -38,13 +40,17 @@ export const Secondbg = styled.div`
     top: 100vh;
 
     @media (max-width: 1024px) { 
-        top: 90vh;
-        height: 100vh;
+        top: 50vh;
+        height: 80vh;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
     }
 
     @media (max-width: 768px) { 
         top: 55vh;
         height: 80vh;
+        width: 100%;
         background-size: cover;
         overflow: hidden;
     }
