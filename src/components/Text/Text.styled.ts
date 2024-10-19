@@ -46,8 +46,7 @@ export const SubText = styled.p`
 
     @media (max-width: 768px) { /* Mobile */
         font-size: 16px;
-        width: 100vw; /* Sesuaikan lebar */
-        max-width: 100vw;
+        width: 100%;
         overflow-x: hidden;
         padding-top: 5vh;
     }
@@ -60,8 +59,7 @@ export const SubTitle = styled.div`
 
     @media (max-width: 768px) { /* Mobile */
         font-size: 30px;
-        width: 100vw; /* Sesuaikan lebar */
-        max-width: 100vw;
+        width: 100%; 
         overflow-x: hidden;
     }
 `
@@ -76,8 +74,7 @@ export const Scroll = styled.div`
 
     @media (max-width: 768px) { /* Mobile */
         font-size: 14px;
-        width: 100vw; /* Sesuaikan lebar */
-        max-width: 100vw;
+        width: 100%;
         overflow-x: hidden;
     }
 `
