@@ -5,12 +5,12 @@ export const NavContainer = styled.section`
     gap:25rem;
     margin:2rem;
     color:white;
-    @media (max-width: 1024px) { /* Tablet */
+    @media (max-width: 1024px) {
         gap: 10rem;
         margin: 1rem;
     }
 
-    @media (max-width: 768px) { /* Mobile */
+    @media (max-width: 768px) { 
         gap: 5rem;
         margin: 1rem;
     }
@@ -19,7 +19,7 @@ export const Menu = styled.div`
     display:flex;
     list-style:none;
     gap:1rem;
-    @media (max-width: 768px) { /* Mobile */
+    @media (max-width: 768px) { 
         gap: 1rem;
     }
 `

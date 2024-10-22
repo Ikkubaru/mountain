@@ -9,23 +9,20 @@ export const Title = styled.section`
     color:white;
     z-index: 10;
     @media (max-width: 1024px) {
-        gap: 5rem;
-        padding-top: 3rem;
+        gap: 0.1rem;
+        padding-top: 0px;
     }
 
     @media (max-width: 768px) {
-        gap: 2rem;
-        padding-top: 1rem;
-        width: 100vw; 
-        max-width: 100vw;
-        overflow-x: hidden; 
+        width: 100%; 
+        padding-top: 6rem;
     }
 `
 export const Line = styled.div`
   width: 72px;
   height: 2px;
   background-color: #FBD784;
-  margin: 10px 0;
+  margin: 10px;
   @media (max-width: 1024px) { 
       width: 60px;
   }
@@ -40,24 +37,23 @@ export const SubText = styled.p`
     font-weight:bold;
     font-size:20px;
     color:#FBD784;
-    @media (max-width: 1024px) { /* Tablet */
+    @media (max-width: 1024px) { 
         font-size: 18px;
     }
 
-    @media (max-width: 768px) { /* Mobile */
+    @media (max-width: 768px) {
         font-size: 16px;
         width: 100%;
         overflow-x: hidden;
-        padding-top: 5vh;
     }
 `
 export const SubTitle = styled.div` 
     font-size: 82px;
-    @media (max-width: 1024px) { /* Tablet */
+    @media (max-width: 1024px) {
         font-size: 64px;
     }
 
-    @media (max-width: 768px) { /* Mobile */
+    @media (max-width: 768px) { 
         font-size: 30px;
         width: 100%; 
         overflow-x: hidden;
@@ -68,11 +64,11 @@ export const Scroll = styled.div`
     font-size: 18px;
     font-weight: bold;
     position: relative;
-    @media (max-width: 1024px) { /* Tablet */
+    @media (max-width: 1024px) { 
         font-size: 16px;
     }
 
-    @media (max-width: 768px) { /* Mobile */
+    @media (max-width: 768px) { 
         font-size: 14px;
         width: 100%;
         overflow-x: hidden;

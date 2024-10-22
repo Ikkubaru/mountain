@@ -8,18 +8,47 @@ export const SecondContainer = styled.div`
     background-color: #0B1D26;
     position: relative;
     color: #ffff;
+@media (max-width: 1024px) { 
+      top: 120vh;
+      height:140vh;
+      width: 100%;
+    }
+@media (max-width: 768px) {
+    top: 120vh;
+    width: 100%;
+    height:150vh;
+  }
 `
 export const SecondImage = styled.img`
     background-image: url(${ImageSecond});
     background-size: cover;
-   width: 343px;
-   height: 430px;
+    width: 343px;
+    height: 430px;
+@media (max-width: 1024px) {
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+  }
+@media (max-width: 768px) {
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+  }
 `
 export const ContainerTwo = styled.div`
     padding-left:10rem;
     padding-top: 3rem;
     display: flex;
     gap: 2rem;
+@media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    padding-left: 1rem;
+    width: 100%;
+  }
 `
 export const Two = styled.h1`
     font-family: arial;
@@ -28,6 +57,15 @@ export const Two = styled.h1`
     position: absolute;
     top: -50px;
     left: 35rem;
+ @media (max-width: 1024px) {
+    font-size: 130px;
+    left: 50px;
+  }
+  @media (max-width: 768px) {
+    font-size: 100px;
+    left: 30px;
+    top: 100vh;
+  }
 `
 export const Linked = styled.a`
    color:#FBD784;
@@ -39,12 +77,21 @@ export const Linked = styled.a`
 `
 export const LargeText = styled.p`
     font-size: 64px;
+    @media (max-width: 768px) {
+    font-size: 28px;
+    text-align: center;
+  }
 `
 export const Paragraph = styled.p`
     font-family: Arial;
     font-size: 25;
     font-weight: bold;
     letter-spacing: 1px;
+    @media (max-width: 768px) {
+    margin: 10px;
+    font-size: 15px;
+    text-align: justify;
+  }
 `
 export const More = styled.a`
      text-decoration: none;
@@ -54,6 +101,10 @@ export const More = styled.a`
     cursor: pointer;
     color:#FBD784;
     display: flex;
+    @media (max-width: 768px) {
+    font-size: 16px;
+    justify-content: center;
+  }
 `
 export const Line = styled.div`
   width: 52px;

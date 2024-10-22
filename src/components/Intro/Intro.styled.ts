@@ -6,12 +6,19 @@ export const Containerone = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
+    @media (max-width: 1024px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `
 export const Bg = styled.div`
     background-image:url(${BackgroundImg});
     background-repeat:no-repeat;
     background-size:cover;
-    background-position: center;
     top: 0;
     left: 0;
     width:100%;
@@ -28,6 +35,7 @@ export const Bg = styled.div`
         height: 100vh;
         width: 100%;
         background-size: cover;
+        padding: 0;
     }
     `
 export const Secondbg = styled.div`
@@ -40,18 +48,17 @@ export const Secondbg = styled.div`
     top: 100vh;
 
     @media (max-width: 1024px) { 
-        top: 50vh;
+        top: 40vh;
         height: 80vh;
         width: 100%;
         background-size: cover;
-        overflow: hidden;
     }
 
     @media (max-width: 768px) { 
         top: 55vh;
-        height: 80vh;
+        padding: 0;
+        height: 70vh;
         width: 100%;
         background-size: cover;
-        overflow: hidden;
     }
 `

@@ -8,20 +8,28 @@ export const FirstContainer = styled.div`
     background-color: #0B1D26;
     position: relative;
     color: #ffff;
-    @media (max-width: 768px) {
+  @media (max-width: 1024px) { 
+      top: 120vh;
+      height:140vh;
+      width: 100%;
+    }
+  @media (max-width: 768px) {
     top: 120vh;
+    width: 100%;
   }
 `
 export const ContainerOne = styled.div`
     padding-left:10rem;
     display: flex;
     gap: 2rem;
-    @media (max-width: 1024px) {
+  @media (max-width: 1024px) {
     flex-direction: column-reverse;
     align-items: center;
+    width: 100%;
   }
   @media (max-width: 768px) {
     padding-left: 1rem;
+    width: 100%;
   }
 `
 export const FirstImage = styled.img`
@@ -29,15 +37,20 @@ export const FirstImage = styled.img`
     width: 343px;
     height: 430px;
     background-size: cover;
-    @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     width: 230px;
     height: 300px;
+    background-size: cover;
+  }
+  @media (max-width: 768px) {
+    width: 350px;
+    height: 500px;
     background-size: cover;
   }
 `
 export const LargeText = styled.p`
     font-size: 64px;
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 28px;
     text-align: center;
   }
@@ -47,7 +60,7 @@ export const Paragraph = styled.p`
     font-size: 25;
     font-weight: bold;
     letter-spacing: 1px;
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     margin: 10px;
     font-size: 15px;
     text-align: justify;
@@ -82,13 +95,13 @@ export const NumberOne = styled.h1`
     opacity: 30%;
     position: absolute;
     left: 90px;
-    @media (max-width: 1024px) {
+  @media (max-width: 1024px) {
     font-size: 130px;
     left: 50px;
   }
   @media (max-width: 768px) {
     font-size: 100px;
-    left: 30px;
+    left: 10px;
   }
 `
 export const Line = styled.div`

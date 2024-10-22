@@ -8,12 +8,31 @@ export const ThirdContainer = styled.div`
     background-color: #0B1D26;
     position: relative;
     color: #ffff;
+@media (max-width: 1024px) { 
+      top: 120vh;
+      height:140vh;
+      width: 100%;
+    }
+@media (max-width: 768px) {
+    top: 120vh;
+    height:150vh;
+    width: 100%;
+  }
     `
 export const ContainerThree = styled.div`
     padding-left:10rem;
     padding-top: 3rem;
     gap: 2rem;
     display: flex;
+  @media (max-width: 1024px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    padding-left: 1rem;
+    width: 100%;
+  }
 `
 export const ThirdImage = styled.img`
     background-image: url(${ImageThree});
@@ -21,15 +40,34 @@ export const ThirdImage = styled.img`
     height: 430px;
     background-size: cover;
     background-position: center;
+    @media (max-width: 1024px) {
+    width: 230px;
+    height: 300px;
+    background-size: cover;
+  }
+  @media (max-width: 768px) {
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+  }
 `
 export const LargeText = styled.p`
     font-size: 64px;
+    @media (max-width: 768px) {
+    font-size: 28px;
+    text-align: center;
+  }
 `
 export const Paragraph = styled.p`
     font-family: Arial;
     font-size: 25;
     font-weight: bold;
     letter-spacing: 1px;
+    @media (max-width: 768px) {
+    margin: 10px;
+    font-size: 15px;
+    text-align: justify;
+  }
 `
 export const Linked = styled.a`
     text-decoration: none;
@@ -39,6 +77,10 @@ export const Linked = styled.a`
     cursor: pointer;
     color:#FBD784;
     display: flex;
+    @media (max-width: 768px) {
+    font-size: 16px;
+    justify-content: center;
+  }
 `
 export const SubTitle = styled.h1`
     color:#FBD784;
@@ -54,10 +96,22 @@ export const NumberThree = styled.h1`
     position: absolute;
     top: -50px;
     left: 90px;
+    @media (max-width: 1024px) {
+    font-size: 130px;
+    left: 50px;
+  }
+  @media (max-width: 768px) {
+    font-size: 100px;
+    left: 30px;
+    top: 100vh;
+  }
 `
 export const Line = styled.div`
   width: 52px;
   height: 2px;
   background-color: #FBD784;
   margin: 10px 0;
+  @media (max-width: 768px) {
+    margin: 5px;
+  }
 `;
