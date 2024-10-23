@@ -1,4 +1,5 @@
 import { SecondContainer, SecondImage, ContainerTwo, Two, Linked, LargeText, Paragraph, More, Line } from "./Second.styled";
+import ImageSecond from "/src/assets/02.jpg"
 
 export default function Second(){
     return(
@@ -6,7 +7,7 @@ export default function Second(){
         <SecondContainer>
             <ContainerTwo>
         <div>
-                <SecondImage  />
+                <SecondImage src={ImageSecond} />
             </div>
                 <Two>02</Two>
         <div>

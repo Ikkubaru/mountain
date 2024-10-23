@@ -17,5 +17,9 @@ export const MenuSide = styled.div`
     @media (max-width: 768px) { 
         font-size: 12px;
     }
+    @media (max-width: 360px) {
+        font-size: 10px; 
+        padding: 0.5rem; 
+    }
 `
 

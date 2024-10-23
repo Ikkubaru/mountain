@@ -7,11 +7,13 @@ export const Containerone = styled.div`
     flex-direction: column;
     position: relative;
     @media (max-width: 1024px) {
-        flex-direction: column-reverse;
         align-items: center;
         width: 100%;
     }
     @media (max-width: 768px) {
+        width: 100%;
+    }
+    @media (max-width: 360px) {
         width: 100%;
     }
 `
@@ -27,15 +29,17 @@ export const Bg = styled.div`
 
     @media (max-width: 1024px) { 
         height: 100vh;
-        width: 100%;
         background-size: cover;
     }
 
     @media (max-width: 768px) { 
         height: 100vh;
-        width: 100%;
         background-size: cover;
         padding: 0;
+    }
+    @media (max-width: 360px) {
+        background-size: contain;
+        overflow-x: hidden;
     }
     `
 export const Secondbg = styled.div`
@@ -50,15 +54,14 @@ export const Secondbg = styled.div`
     @media (max-width: 1024px) { 
         top: 40vh;
         height: 80vh;
-        width: 100%;
         background-size: cover;
     }
 
     @media (max-width: 768px) { 
-        top: 55vh;
-        padding: 0;
-        height: 70vh;
-        width: 100%;
         background-size: cover;
+    }
+    @media (max-width: 360px) { 
+        background-size: contain; 
+        overflow-x: hidden;
     }
 `

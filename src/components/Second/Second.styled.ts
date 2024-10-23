@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import ImageSecond from "/src/assets/02.jpg"
 
 export const SecondContainer = styled.div`
     width: 100%;
@@ -14,26 +13,34 @@ export const SecondContainer = styled.div`
       width: 100%;
     }
 @media (max-width: 768px) {
-    top: 120vh;
+    top: 70vh;
     width: 100%;
     height:150vh;
   }
+  @media (max-width: 480px) {
+    height: 120vh;
+    top: 50vh;
+  }
 `
 export const SecondImage = styled.img`
-    background-image: url(${ImageSecond});
     background-size: cover;
     width: 343px;
     height: 430px;
-@media (max-width: 1024px) {
+    @media (max-width: 1024px) {
     width: 230px;
     height: 300px;
     background-size: cover;
   }
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 350px;
     height: 500px;
     background-size: cover;
   }
+  @media (max-width: 360px) {
+    width: 170px;
+    height: 250px;
+    background-size: contain;
+    }
 `
 export const ContainerTwo = styled.div`
     padding-left:10rem;
@@ -48,6 +55,10 @@ export const ContainerTwo = styled.div`
   @media (max-width: 768px) {
     padding-left: 1rem;
     width: 100%;
+  }
+  @media (max-width:360px){
+    padding-left: 0.5rem;
+    gap: 1rem;
   }
 `
 export const Two = styled.h1`
@@ -66,6 +77,11 @@ export const Two = styled.h1`
     left: 30px;
     top: 100vh;
   }
+  @media (max-width: 360px) {
+    font-size: 80px;
+    left: 15px;
+    top: 65vh;
+  }
 `
 export const Linked = styled.a`
    color:#FBD784;
@@ -74,12 +90,21 @@ export const Linked = styled.a`
     text-decoration: none;
     font-weight: bold;
     display: flex;
+    @media (max-width: 360px) {
+    padding-left: 5rem;
+    font-size: 14px;
+    align-items: center;
+    font-weight: lighter;
+  }
 `
 export const LargeText = styled.p`
     font-size: 64px;
     @media (max-width: 768px) {
     font-size: 28px;
     text-align: center;
+  }
+  @media (max-width: 360px) {
+    font-size: 24px;
   }
 `
 export const Paragraph = styled.p`
@@ -91,6 +116,9 @@ export const Paragraph = styled.p`
     margin: 10px;
     font-size: 15px;
     text-align: justify;
+  }
+  @media (max-width: 360px) {
+    font-size: 13px;
   }
 `
 export const More = styled.a`
@@ -105,10 +133,17 @@ export const More = styled.a`
     font-size: 16px;
     justify-content: center;
   }
+  @media (max-width: 360px) {
+    font-size: 14px;
+  }
 `
 export const Line = styled.div`
   width: 52px;
   height: 2px;
   background-color: #FBD784;
   margin: 10px 0;
+  @media (max-width: 360px) {
+    width: 40px;
+    margin: 10px;
+  }
 `;

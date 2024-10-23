@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ImageThree from "/src/assets/03.png"
 
 export const ThirdContainer = styled.div`
-     width: 100%;
+    width: 100%;
     height:100vh;
     top: 220vh;
     background-color: #0B1D26;
@@ -14,9 +14,13 @@ export const ThirdContainer = styled.div`
       width: 100%;
     }
 @media (max-width: 768px) {
-    top: 120vh;
+    top: 65vh;
     height:150vh;
     width: 100%;
+  }
+  @media (max-width: 360px) {
+    top: 40vh;
+    height: 120vh;
   }
     `
 export const ContainerThree = styled.div`
@@ -32,6 +36,10 @@ export const ContainerThree = styled.div`
   @media (max-width: 768px) {
     padding-left: 1rem;
     width: 100%;
+  }
+  @media (max-width: 360px) {
+    padding-left: 0.2rem;
+    gap: 0.5rem;
   }
 `
 export const ThirdImage = styled.img`
@@ -50,12 +58,20 @@ export const ThirdImage = styled.img`
     height: 500px;
     background-size: cover;
   }
+  @media (max-width: 360px) {
+    width: 250px;
+    height: 350px;
+    background-size: cover;
+  }
 `
 export const LargeText = styled.p`
     font-size: 64px;
     @media (max-width: 768px) {
     font-size: 28px;
     text-align: center;
+  }
+  @media (max-width: 360px) {
+    font-size: 20px;
   }
 `
 export const Paragraph = styled.p`
@@ -67,6 +83,9 @@ export const Paragraph = styled.p`
     margin: 10px;
     font-size: 15px;
     text-align: justify;
+  }
+  @media (max-width: 360px) {
+    font-size: 12px;
   }
 `
 export const Linked = styled.a`
@@ -81,6 +100,9 @@ export const Linked = styled.a`
     font-size: 16px;
     justify-content: center;
   }
+  @media (max-width: 360px) {
+    font-size: 12px;
+  }
 `
 export const SubTitle = styled.h1`
     color:#FBD784;
@@ -88,6 +110,14 @@ export const SubTitle = styled.h1`
     font-family: arial;
     display: flex;
     text-transform: uppercase;
+    @media (max-width: 480px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 360px) {
+    font-size: 14px;
+    padding-left: 4rem;
+  }
 `
 export const NumberThree = styled.h1`
     font-family: arial;
@@ -105,6 +135,11 @@ export const NumberThree = styled.h1`
     left: 30px;
     top: 100vh;
   }
+  @media (max-width: 360px) {
+    font-size: 70px;
+    left: 10px;
+    top: 75vh;
+  }
 `
 export const Line = styled.div`
   width: 52px;
@@ -113,5 +148,8 @@ export const Line = styled.div`
   margin: 10px 0;
   @media (max-width: 768px) {
     margin: 5px;
+  }
+  @media (max-width: 360px) {
+    width: 30px;
   }
 `;

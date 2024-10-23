@@ -1,4 +1,5 @@
 import {FirstContainer,ContainerOne, FirstImage, Paragraph, Linked, LargeText, Start, NumberOne, Line} from "./First.styled"
+import ImageOne from "/src/assets/01.png"
 
 export default function First(){
     return(
@@ -22,7 +23,7 @@ export default function First(){
                 </Linked>
             </div>
             <div>
-                <FirstImage/>
+                <FirstImage src={ImageOne}/>
             </div>
             </ContainerOne>
         </FirstContainer>

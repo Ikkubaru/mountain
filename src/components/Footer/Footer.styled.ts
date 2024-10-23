@@ -8,23 +8,31 @@ export const FooterPart = styled.div`
     position: relative;
     color: #ffff;
     padding: 7rem;
-    @media (max-width: 1024px) {
+  @media (max-width: 1024px) {
     padding: 5rem;
     top: 100vh;
     height: 100vh;
   }
 
   @media (max-width: 768px) { 
-    top: 110vh;
+    top: 60vh;
     height: 140vh;
     width: 100%;
+  }
+  @media (max-width: 360px) {
+    padding: 2rem;
+    top: 35vh;
+    height: 120vh;
   }
 `
 export const LogoFooter = styled.h1`
     font-weight:bold;
     font-size:30px;
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 20px;
+  }
+  @media (max-width: 360px) {
+    font-size: 18px;
   }
 `
 export const CopyRight = styled.p`
@@ -42,6 +50,10 @@ export const CopyRight = styled.p`
     bottom: 1px;
     padding-bottom: 1rem;
   }
+  @media (max-width: 360px) {
+    padding-bottom: 1rem;
+
+  }
 `
 export const FooterContainer = styled.div`
     display: flex;
@@ -53,7 +65,9 @@ export const FooterContainer = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
-
+  }
+  @media (max-width: 360px) {
+    
   }
 `
 export const Paragraph = styled.p`
@@ -65,6 +79,10 @@ export const Paragraph = styled.p`
     @media (max-width: 768px) {
     font-size: 15px;
   }
+  @media (max-width: 360px) {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
 `
 export const FooterTitle = styled.p`
     padding: 1rem;
@@ -72,9 +90,13 @@ export const FooterTitle = styled.p`
     font-size: 25;
     font-weight: bold;
     color:#FBD784;
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 20px;
     padding: 0px;
+  }
+  @media (max-width: 360px) {
+    font-size: 18px;
+    padding: 0;
   }
 `
 export const ListFooterMenu = styled.ul`
@@ -86,6 +108,9 @@ export const ListFooterMenu = styled.ul`
   @media (max-width: 768px) {
     padding: 0.5rem;
   }
+  @media (max-width: 360px) {
+    padding: 0.2rem;
+  }
 `
 export const FooterLinked = styled.a`
     text-decoration: none;
@@ -95,11 +120,11 @@ export const FooterLinked = styled.a`
 `
 export const FooterMenu = styled.div`
     gap: 4rem;
-    @media (max-width: 1024px) {
-    gap: 2rem;
-  }
-
   @media (max-width: 768px) {
     gap: none;
+  }
+
+  @media (max-width: 360px) {
+    gap: 1rem;
   }
 `

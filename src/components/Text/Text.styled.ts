@@ -17,6 +17,10 @@ export const Title = styled.section`
         width: 100%; 
         padding-top: 6rem;
     }
+    @media (max-width: 360px) {
+        padding-top: 2rem;
+        gap: 0.5rem;
+    }
 `
 export const Line = styled.div`
   width: 72px;
@@ -30,6 +34,9 @@ export const Line = styled.div`
   @media (max-width: 768px) { 
       width: 50px;
   }
+  @media (max-width: 360px) {
+        width: 40px;
+    }
 `;
 export const SubText = styled.p`
     display: flex;
@@ -46,6 +53,9 @@ export const SubText = styled.p`
         width: 100%;
         overflow-x: hidden;
     }
+    @media (max-width: 360px) {
+        font-size: 14px;
+    }
 `
 export const SubTitle = styled.div` 
     font-size: 82px;
@@ -57,6 +67,9 @@ export const SubTitle = styled.div`
         font-size: 30px;
         width: 100%; 
         overflow-x: hidden;
+    }
+    @media (max-width: 360px) {
+        font-size: 30px;
     }
 `
 export const Scroll = styled.div`
@@ -71,6 +84,8 @@ export const Scroll = styled.div`
     @media (max-width: 768px) { 
         font-size: 14px;
         width: 100%;
-        overflow-x: hidden;
+    }
+    @media (max-width: 360px) {
+        font-size: 12px;
     }
 `

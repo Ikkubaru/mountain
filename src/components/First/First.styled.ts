@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import ImageOne from "/src/assets/01.png"
 
 export const FirstContainer = styled.div`
     width: 100%;
@@ -9,31 +8,34 @@ export const FirstContainer = styled.div`
     position: relative;
     color: #ffff;
   @media (max-width: 1024px) { 
-      top: 120vh;
+      top: 80vh;
       height:140vh;
-      width: 100%;
     }
   @media (max-width: 768px) {
     top: 120vh;
-    width: 100%;
+    height: 145vh;
+  }
+  @media (max-width:360px){
+    top: 80vh;
   }
 `
 export const ContainerOne = styled.div`
     padding-left:10rem;
     display: flex;
     gap: 2rem;
+    width: 100%;
   @media (max-width: 1024px) {
     flex-direction: column-reverse;
     align-items: center;
-    width: 100%;
   }
   @media (max-width: 768px) {
     padding-left: 1rem;
-    width: 100%;
+  }
+  @media (max-width: 360px) {
+    height: 90vh;
   }
 `
 export const FirstImage = styled.img`
-    background-image: url(${ImageOne});
     width: 343px;
     height: 430px;
     background-size: cover;
@@ -44,9 +46,14 @@ export const FirstImage = styled.img`
   }
   @media (max-width: 768px) {
     width: 350px;
-    height: 500px;
+    height: 300px;
     background-size: cover;
   }
+  @media (max-width: 360px) {
+        width: 170px;
+        height: 250px;
+        background-size: cover;
+    }
 `
 export const LargeText = styled.p`
     font-size: 64px;
@@ -54,6 +61,9 @@ export const LargeText = styled.p`
     font-size: 28px;
     text-align: center;
   }
+  @media (max-width: 360px) {
+        font-size: 20px;
+    }
 `
 export const Paragraph = styled.p`
     font-family: Arial;
@@ -65,6 +75,9 @@ export const Paragraph = styled.p`
     font-size: 15px;
     text-align: justify;
   }
+  @media (max-width: 360px) {
+        font-size: 14px;
+    }
 `
 export const Linked = styled.a`
     text-decoration: none;
@@ -78,6 +91,14 @@ export const Linked = styled.a`
     font-size: 16px;
     justify-content: center;
   }
+  @media (max-width: 768px) {
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    @media (max-width: 360px) {
+        font-size: 14px;
+    }
 `
 export const Start = styled.h1`
     display: flex;
@@ -88,6 +109,9 @@ export const Start = styled.h1`
     font-size: 16px;
     justify-content: center;
   }
+  @media (max-width: 360px) {
+        font-size: 12px;
+    }
 `
 export const NumberOne = styled.h1`
     font-family: arial;
@@ -103,6 +127,10 @@ export const NumberOne = styled.h1`
     font-size: 100px;
     left: 10px;
   }
+  @media (max-width: 360px) {
+        font-size: 80px;
+        left: 5px;
+    }
 `
 export const Line = styled.div`
   width: 52px;
@@ -112,4 +140,7 @@ export const Line = styled.div`
   @media (max-width: 768px) {
     margin: 5px;
   }
+  @media (max-width: 360px) {
+        width: 40px;
+    }
 `;

@@ -9,6 +9,17 @@ const ProgressContainer = styled.div`
   height: 100px; 
   background-color: #e0e0e0;
   z-index: 9999;
+  @media (max-width: 768px) { 
+    width: 2px;  
+    height: 60px; 
+    right: 3px;
+  }
+
+  @media (max-width: 360px) {
+    width: 1.5px;  
+    height: 50px; 
+    right: 2px;
+  }
 `;
 
 const ProgressBar = styled.div`
