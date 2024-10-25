@@ -53,7 +53,7 @@ export const Secondbg = styled.div`
 
     @media (max-width: 1024px) { 
         top: 40vh;
-        height: 80vh;
+        height: 100vh;
         background-size: cover;
     }
 

@@ -8,12 +8,12 @@ export const FirstContainer = styled.div`
     position: relative;
     color: #ffff;
   @media (max-width: 1024px) { 
-      top: 80vh;
+      top: 120vh;
       height:140vh;
     }
   @media (max-width: 768px) {
-    top: 120vh;
-    height: 145vh;
+    top: 115vh;
+    height: 175vh;
   }
   @media (max-width:360px){
     top: 80vh;
@@ -143,4 +143,4 @@ export const Line = styled.div`
   @media (max-width: 360px) {
         width: 40px;
     }
-`;
+`

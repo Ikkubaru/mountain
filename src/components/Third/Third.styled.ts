@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import ImageThree from "/src/assets/03.png"
 
 export const ThirdContainer = styled.div`
     width: 100%;
@@ -9,13 +8,13 @@ export const ThirdContainer = styled.div`
     position: relative;
     color: #ffff;
 @media (max-width: 1024px) { 
-      top: 120vh;
+      top: 105vh;
       height:140vh;
       width: 100%;
     }
 @media (max-width: 768px) {
-    top: 65vh;
-    height:150vh;
+    top: 45vh;
+    height:170vh;
     width: 100%;
   }
   @media (max-width: 360px) {
@@ -43,7 +42,6 @@ export const ContainerThree = styled.div`
   }
 `
 export const ThirdImage = styled.img`
-    background-image: url(${ImageThree});
     width: 343px;
     height: 430px;
     background-size: cover;
@@ -128,7 +126,8 @@ export const NumberThree = styled.h1`
     left: 90px;
     @media (max-width: 1024px) {
     font-size: 130px;
-    left: 50px;
+    top: 25rem;
+    left: 4rem;
   }
   @media (max-width: 768px) {
     font-size: 100px;

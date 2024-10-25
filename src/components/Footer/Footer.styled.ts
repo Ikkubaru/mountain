@@ -9,13 +9,12 @@ export const FooterPart = styled.div`
     color: #ffff;
     padding: 7rem;
   @media (max-width: 1024px) {
-    padding: 5rem;
     top: 100vh;
-    height: 100vh;
+    height: auto;
   }
 
   @media (max-width: 768px) { 
-    top: 60vh;
+    top: 40vh;
     height: 140vh;
     width: 100%;
   }
@@ -41,7 +40,10 @@ export const CopyRight = styled.p`
     font-family: arial;
     padding-top: 10rem;
     @media (max-width: 1024px) {
-      
+    padding-top: 3rem;
+    position: absolute;
+    bottom: 1px;
+    padding-bottom: 1rem;
   }
 
   @media (max-width: 768px) {

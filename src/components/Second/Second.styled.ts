@@ -2,22 +2,21 @@ import styled from "styled-components";
 
 export const SecondContainer = styled.div`
     width: 100%;
-    height:100vh;
+    height:120vh;
     top: 220vh;
     background-color: #0B1D26;
     position: relative;
     color: #ffff;
 @media (max-width: 1024px) { 
-      top: 120vh;
+      top: 110vh;
       height:140vh;
       width: 100%;
     }
 @media (max-width: 768px) {
-    top: 70vh;
-    width: 100%;
-    height:150vh;
+    top: 60vh;
+    height:175vh;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 360px) {
     height: 120vh;
     top: 50vh;
   }
@@ -70,7 +69,8 @@ export const Two = styled.h1`
     left: 35rem;
  @media (max-width: 1024px) {
     font-size: 130px;
-    left: 50px;
+    top: 25rem;
+    left: 4rem;
   }
   @media (max-width: 768px) {
     font-size: 100px;

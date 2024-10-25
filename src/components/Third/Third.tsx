@@ -1,4 +1,5 @@
 import { ThirdContainer,ContainerThree, ThirdImage, NumberThree, SubTitle, Linked, LargeText, Paragraph, Line } from "./Third.styled";
+import ImageThree from "/src/assets/03.png"
 
 export default function Third(){
     return(
@@ -30,7 +31,7 @@ export default function Third(){
                 <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </Linked>
                 </div>
-                    <ThirdImage />
+                    <ThirdImage src={ImageThree}/>
             </ContainerThree>
         </ThirdContainer>
         </>
