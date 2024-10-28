@@ -16,7 +16,7 @@ export const FirstContainer = styled.div`
     height: 175vh;
   }
   @media (max-width:360px){
-    top: 80vh;
+    top: 75vh;
   }
 `
 export const ContainerOne = styled.div`

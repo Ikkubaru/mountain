@@ -38,7 +38,7 @@ export const Bg = styled.div`
         padding: 0;
     }
     @media (max-width: 360px) {
-        background-size: contain;
+        background-size: cover;
         overflow-x: hidden;
     }
     `
@@ -47,7 +47,7 @@ export const Secondbg = styled.div`
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
-    height:120vh;
+    height:auto;
     position: absolute;
     top: 100vh;
 
@@ -61,7 +61,8 @@ export const Secondbg = styled.div`
         background-size: cover;
     }
     @media (max-width: 360px) { 
-        background-size: contain; 
+        top: 50vh;
+        background-size: contain;
         overflow-x: hidden;
     }
 `
