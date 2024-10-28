@@ -1,5 +1,5 @@
 import Container from "../Container/Container";
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import {Bg, Containerone, Secondbg} from "./Intro.styled"
 
 export default function Intro(){
