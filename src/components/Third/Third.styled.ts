@@ -18,7 +18,7 @@ export const ThirdContainer = styled.div`
     width: 100%;
   }
   @media (max-width: 360px) {
-    top: 40vh;
+    top: 5vh;
     height: 120vh;
   }
     `

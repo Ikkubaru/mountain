@@ -18,7 +18,7 @@ export const SecondContainer = styled.div`
   }
   @media (max-width: 360px) {
     height: 120vh;
-    top: 50vh;
+    top: 5vh;
   }
 `
 export const SecondImage = styled.img`

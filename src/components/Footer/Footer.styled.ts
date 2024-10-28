@@ -19,9 +19,9 @@ export const FooterPart = styled.div`
     width: 100%;
   }
   @media (max-width: 360px) {
-    padding: 2rem;
-    top: 35vh;
-    height: 120vh;
+    padding: 1rem;
+    top: 5vh;
+    height: 110vh;
   }
 `
 export const LogoFooter = styled.h1`
@@ -54,7 +54,6 @@ export const CopyRight = styled.p`
   }
   @media (max-width: 360px) {
     padding-bottom: 1rem;
-
   }
 `
 export const FooterContainer = styled.div`
