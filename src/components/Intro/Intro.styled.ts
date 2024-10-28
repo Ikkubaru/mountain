@@ -47,7 +47,7 @@ export const Secondbg = styled.div`
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
-    height:auto;
+    height:120vh;
     position: absolute;
     top: 100vh;
 
@@ -61,7 +61,6 @@ export const Secondbg = styled.div`
         background-size: cover;
     }
     @media (max-width: 360px) { 
-        top: 50vh;
         background-size: contain;
         overflow-x: hidden;
     }
