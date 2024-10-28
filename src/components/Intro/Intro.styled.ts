@@ -24,9 +24,11 @@ export const Bg = styled.div`
     top: 0;
     left: 0;
     width:100%;
-    height:200vh;
+    height:220vh;
     position:absolute;
     overflow-x: hidden;
+    background-position: center 0;
+    transform: translateZ(0);
     @media (max-width: 1024px) { 
         height: 100vh;
         background-size: cover;
@@ -47,9 +49,11 @@ export const Secondbg = styled.div`
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
-    height:120vh;
+    height:130vh;
     position: absolute;
-    top: 100vh;
+    top: 90vh;
+    background-position: center 0;
+    transform: translateZ(0);
     @media (max-width: 1024px) { 
         top: 40vh;
         height: 100vh;
