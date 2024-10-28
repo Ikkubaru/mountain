@@ -26,7 +26,7 @@ export const Bg = styled.div`
     width:100%;
     height:200vh;
     position:absolute;
-
+    overflow-x: hidden;
     @media (max-width: 1024px) { 
         height: 100vh;
         background-size: cover;
@@ -50,7 +50,6 @@ export const Secondbg = styled.div`
     height:120vh;
     position: absolute;
     top: 100vh;
-
     @media (max-width: 1024px) { 
         top: 40vh;
         height: 100vh;
